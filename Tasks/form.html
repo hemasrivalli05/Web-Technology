@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: rgba(23, 89, 108, 0.768);
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+            font-size: large;
+
+        }
+
+        label {
+            color: white;
+        }
+
+        input {
+            background-color: white;
+        }
+
+        form,
+        #positions {
+            color: white;
+            padding: 30px;
+
+        }
+
+        #gender {
+            background-color: white;
+
+        }
+
+        form {
+            /* text-align: center; */
+            height: 400px;
+            width: 500px;
+        }
+
+        input {
+            padding: 5px;
+        }
+
+        table {
+            align-items: center;
+        }
+
+        button {
+            background-color: orangered;
+            color: white;
+            padding: 5px;
+            width: 150px;
+            border-radius: 5px;
+            /* box-shadow: 10px grey;    */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h2>Application form</h2> -->
+
+    <form action="">
+        <h2>Application form</h2>
+        <table style="text-align: left;">
+            <tr>
+                <td><label for="firstname">FIRST NAME:</label></td>
+                <td><input type="text" id="firstname" name="firstname"></td>
+                <td><label for="lastname">LAST NAME:</label></td>
+                <td><input type="text" id="lastname" name="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" name="age"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <select name="gender" id="gender">
+                        <option value="male">MALE</option>
+                        <option value="female">FEMALE</option>
+                        <option value="other">OTHER</option>
+                    </select>
+                </td>
+                <td><label for="email">Email Address:</label></td>
+                <td><input type="text" placeholder="Enter email address" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="positions">Positions Developer:</label></td>
+                <td colspan="3">
+                    <input type="radio" id="positions-junior" name="positions" value="Junior Developer">
+                    <label for="positions-junior">Junior Developer</label>
+                    <input type="radio" id="positions-mid" name="positions" value="Mid-Level Developer">
+                    <label for="positions-mid">Mid-Level Developer</label>
+                    <input type="radio" id="positions-senior" name="positions" value="Senior Developer">
+                    <label for="positions-senior">Senior Developer</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="programming-languages">Programming Languages:</label></td>
+                <td colspan="3">
+                    <input type="checkbox" id="java" name="java" value="Java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" id="python" name="python" value="Python">
+                    <label for="python">Python</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password"></td>
+                <td><label for="confirmpswd">Confirm Password:</label></td>
+                <td><input type="password" id="confirmpswd" name="confirmpswd"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit"> Submit</button>
+                    <button type="reset"> Reset</button>
+                </td>
+            </tr>
+        </table>
+        <!-- <br> -->
+        <!-- <button type="submit"> Submit</button>
+        <button type="reset"> Reset</button> -->
+    </form>
+</body>
+
+</html>

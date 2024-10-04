@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid_container {
+            background-color: chartreuse;
+            height: 400px;
+            display: grid;
+            /* no.of columns and width of each colum */
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto;
+            /* column-gap: 5px;
+    row-gap: 5px; */
+            gap: 5px;
+        }
+
+        #grid_container .grid_items {
+            border: 1px solid yellow;
+            color: white;
+            background-color: rgb(60, 52, 221);
+        }
+
+        #grid_container .grid_item2 {
+            /* grid-column-start: 1;
+    grid-column-end: 3; */
+            grid-column: 2/4;
+            /* grid-row-start: 1;
+    grid-row-end: 3; */
+            /* grid-row: 2/3; */
+
+        }
+
+        #grid_container .grid_item4 {
+            /* grid-row-start: 1;
+    grid-row-end: 3; */
+            /* grid-row: 1/3; */
+            grid-column: 2/4;
+        }
+
+        #grid_container .grid_item5 {
+            /* grid-row-start: 1;
+    grid-row-end: 3; */
+            /* grid-row: 1/3; */
+            grid-column: 1/3;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="grid_container">
+        <div class="grid_items grid_item1">Grid Item 1</div>
+        <div class="grid_items grid_item2">Grid Item 2</div>
+        <div class="grid_items grid_item3">Grid Item 3</div>
+        <div class="grid_items grid_item4">Grid Item 4</div>
+        <div class="grid_items grid_item5">Grid Item 5</div>
+        <div class="grid_items grid_item6">Grid Item 6</div>
+        <!-- <div class="grid_items grid_item7">Grid Item 7</div>
+        <div class="grid_items grid_item8">Grid Item 8</div>
+        <div class="grid_items grid_item9">Grid Item 9</div> -->
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits and Vegetables Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Farm Fresh Products</h1>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Our Fresh Produce Market</h2>
+                <p>Discover a variety of fresh fruits and vegetables sourced locally.</p>
+                <a href="#products" class="btn btn-explore">Explore Products</a>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="https://images.pexels.com/photos/3025236/pexels-photo-3025236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="Fruits">
+                        <h3>Fruits</h3>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsT5Cg6RDN7cC5Cexzj57qRAFHycMW6ZG4w&s"
+                            alt="Vegetables">
+                        <h3>Vegetables</h3>
+                    </div>
+                    <div class="product">
+                        <img src="https://c8.alamy.com/comp/W25FP2/asian-supermarket-go-asia-supermarket-shelves-ingredients-for-sushi-dresden-germany-supermarket-shelf-W25FP2.jpg"
+                            alt="Groceries">
+                        <h3>Groceries</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <h2>Get In Touch With Us </h2>
+            <div class="container">
+                <div class="content-grid">
+                    <aside class="contact">
+                        <h2>Contact Us</h2>
+                        <form class="contact-form" action="#" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <button type="submit" class="btn btn-send">Send Message</button>
+                        </form>
+                    </aside>
+                    <aside class="location">
+                        <h2>Our Location</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.0314703526!2d-0.24168185480860557!3d51.52877184241861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876055dca1c2b99%3A0x50654aee6f20f696!2sBuckingham%20Palace%2C%20London%20SW1A%201AA%2C%20UK!5e0!3m2!1sen!2suk!4v1624874865135!5m2!1sen!2suk"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Fruits & Vegetables. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

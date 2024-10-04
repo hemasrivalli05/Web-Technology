@@ -1,0 +1,27 @@
+#flex_container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* wrap */
+    height: 500px;
+    /* justify-content: works with horizontal direction (whenever flex direction is row)*/
+    justify-content: space-evenly; 
+    /* start,end,space around , space between the elements,space evenly*/
+    /* align-items :verticle direction */
+    align-items: center; 
+}
+#flex_container .flex_item{
+    background-color: purple;
+    height: 100px;
+    border: 2px solid orange;
+    width: 100px;
+    color: white;
+}
+#flex_container .flex_item1{
+    /* flex-basis: 20%; */
+    /* flex-grow: 1; */
+}
+#flex_container .flex_item2{
+    /* flex-basis: 20%; */
+    /* flex-grow: 2; */
+}

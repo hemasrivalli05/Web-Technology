@@ -1,0 +1,8 @@
+@import url(./style1.css);
+@import url(./style2.css);
+div{
+    background-color: yellowgreen;
+}
+h2{
+    color: brown;
+}

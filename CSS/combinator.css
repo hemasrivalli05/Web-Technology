@@ -1,0 +1,22 @@
+/* descendent selector ( space )*/
+#img_blk img{
+    height: 400px;
+    width: 350px;
+    border: 10px solid rgb(101, 226, 101);
+    /* border-width: 5px; */
+}
+
+/* child selector: target direct children */
+#img_blk > img{
+    border: 20px solid red;
+}
+
+/* adjacent sibling */
+#para+article{
+    background-color: blueviolet;
+}
+
+/* general sibling */
+#para1~article{
+    color: green
+}

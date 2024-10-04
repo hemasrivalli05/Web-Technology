@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./combinator.css">
+</head>
+
+<body>
+    <!-- COMBINATOR SELECTOR -->
+    <!-- DESCENDENT ( ):, CHILD (>), ADJACENT SIBLING (+), GENERAL SIBLING SELECTOR (~)-->
+
+    <!-- DESCENDENT SELECTOR ( ) : targets all the children of particular parent-->
+    <!-- <section id ="img_blk">
+    <img src="https://i.pinimg.com/236x/e3/7c/60/e37c60d35aa7bcbe0169d856258a7656.jpg" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdDgkLp5fSuKug5Um-U1xUxI8CqoQRJ0FvHdm1nT6JVg&s" alt="">
+    <img src="https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714780800&semt=sph" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zD1v2P0bC46C8YeQ58W_99P83fE-oIfx30dkJjqPvA&s" alt="">
+</section> -->
+
+    <!-- Child SELECTOR (>) : targets all the children of particular parent-->
+    <!-- child selector directs only direct children -->
+    <section id="img_blk">
+        <img src="https://i.pinimg.com/236x/e3/7c/60/e37c60d35aa7bcbe0169d856258a7656.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdDgkLp5fSuKug5Um-U1xUxI8CqoQRJ0FvHdm1nT6JVg&s"
+            alt="">
+        <div>
+            <img src="https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714780800&semt=sph"
+                alt="this is indirect children">
+        </div> <!--  indirect children -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zD1v2P0bC46C8YeQ58W_99P83fE-oIfx30dkJjqPvA&s"
+            alt="">
+        <img src="https://www.weareteachers.com/wp-content/uploads/1-12-800x800.jpg" alt="">
+    </section>
+
+    <!-- adjacent sibling selector (+) to tarfet the elements which is immediately next to the particular elements-->
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda quis eaque eum? Hic quas distinctio, eum expedita porro reiciendis voluptatem minima aspernatur officia ipsum illo! Doloribus sit assumenda explicabo.</p>
+    <article>Hello...</article>
+    <article>Hello...</article>
+    <article>Hello...</article>
+    <article>Hello...</article>
+    <article>Hello...</article>
+
+    <!-- General sibling selector (~) to target the elements which is immediately next to the particular elements-->
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda quis eaque eum? Hic quas distinctio, eum expedita porro reiciendis voluptatem minima aspernatur officia ipsum illo! Doloribus sit assumenda explicabo.</p>
+    <article>Hello...</article>
+    <article>Hello...</article>
+    <article>Hello...</article>
+    <article>Hello...</article>
+    <article>Hello...</article>
+
+</body>
+
+</html>

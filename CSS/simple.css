@@ -1,0 +1,31 @@
+/* universal selector (*) */
+*{
+    /* background-color: rgb(236, 229, 215); */
+    margin: 0%;  
+    padding: 0%;
+    box-sizing: border-box ;
+}
+
+#target{
+    background-color: aqua;
+}
+
+.para{
+    font-size: 30px;
+    color: rgb(230, 219, 71);
+}
+
+.demo{
+    background-color: rebeccapurple;
+}
+
+/* tag name  */
+section{
+    border: 1px solid blue;
+}
+
+/* grouping selector */
+#target,.para,section{
+    font-size: 20px;
+    color: grey;
+}

@@ -1,0 +1,40 @@
+/* first letter : to style  */
+.para {
+    font-size: 20px;
+}
+
+.para::first-letter {
+    font-size: 90px;
+    color: greenyellow;
+}
+
+.para::first-line {
+    background-color: aqua;
+}
+
+/* before: use to add content before our actual content*/
+.para::before {
+    content: "hello 🤩";
+}
+
+.para::after {
+    content: "byeeee.....";
+    color: red;
+}
+
+.para::selection {
+    /* background-color: darkolivegreen; content select highlight color */
+    user-select: none;
+    /* to user not able to select content */
+}
+
+/* Marker : to style list style  */
+ul li::marker{
+    color: fuchsia;
+    font-size: 30px;
+}
+
+ol li::marker{
+    color: goldenrod;
+    font-family:'Courier New', Courier, monospace;
+}

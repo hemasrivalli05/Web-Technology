@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height:400px;
+    width:400px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main div{
+    height: 150px;
+    width: 150px;
+    /* background-color: darkblue; */
+    /* border-radius: 100px; */
+    /* transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 1s ; */
+    transition: transform 2s ease-in-out 1s ;
+    /* background-color 3s linear 1s; */
+    margin-bottom: 400px;
+    overflow: hidden;
+
+}
+main div img{
+    height: inherit;
+    width: inherit;
+    /* overflow: hidden;  */
+    /* transition: transform 2s linear 0.5s; */
+    /* display: inline-block; mot work*/
+    border-radius: 100px;
+
+}
+main div:hover{
+    /*! translate to move elements  */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: translate(200px, 200px); */
+    /*! scale : change the size of element */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    transform: scale(1.2);
+    /*! skew: to skew the element */
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: skew(45deg, 35deg); */
+    /*! rotate: to rotate */
+    /* background-color: red; */
+    /* transform: rotate(360deg); */
+}

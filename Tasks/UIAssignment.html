@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarfaraz's Website</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <Style>
+        * {
+            /* background-color: rgb(236, 229, 215); */
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #5A2D0C;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #C24A0E;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .main-content {
+            text-align: center;
+            /* padding: 20px; */
+            background-color: white;
+        }
+
+        .full-width-image {
+            
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .full-width-image img {
+            width: 100%;
+            height: 400px;
+            /* Maintain aspect ratio */
+            display: block;
+            /* Remove bottom margin caused by inline-block */
+        }
+
+        /* .main-content img {
+            width: 100%;
+            height: 400px;
+            margin: 0;
+            margin: -20px -20px -10px -20px;
+        } */
+
+        .info-section {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            background-color: #C24A0E;
+            color: white;
+            padding: 15px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-box button {
+            background-color: #5A2D0C;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .description {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        aside {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            background-color: #C24A0E;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #C24A0E;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </Style>
+</head>
+
+<body>
+    <header>
+        <h1>Sarfaraz's website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-content">
+            <div class="full-width-image">
+                <img src="../ASSETS/pg.jpg" alt="Penguins">
+            </div>
+            <div class="info-section">
+                <div class="info-box">
+                    <h2>Upcoming Events</h2>
+                    <p>Lorem Ipsum is simply dummy text...</p>
+                    <button>Upcoming Events</button>
+                </div>
+                <div class="info-box">
+                    <h2>View all Media</h2>
+                    <p>Lorem Ipsum is simply dummy text...</p>
+                    <button>View all Media</button>
+                </div>
+                <div class="info-box">
+                    <h2>Donate Now</h2>
+                    <p>Lorem Ipsum is simply dummy text...</p>
+                    <button>Donate Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="description">
+            <h2>This is an amazing Website Design</h2>
+            <p>There are many variations of passages of Lorem Ipsum available...</p>
+        </section>
+        <aside>
+            <div class="sidebar">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <div class="sidebar">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; Copyright All rights reserved 2014.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+/* universal selector (*) */
+*{
+    /* background-color: rgb(236, 229, 215); */
+    margin: 0%;  
+    padding: 0%;
+    box-sizing: border-box ; 
+}
+
+
+h1{
+    /* border: 2px dotted red; */
+    /* thickness , style(4types dash ,solid etc) , color */
+    color: blue;
+    border: 5px solid;
+    background-color: bisque;
+    height: 200px;
+    width:400px;
+    padding: 60px;
+    margin-left: -18px;
+    border-radius: 30px;
+    /* if not giving color takes text color */
+    /* padding: 600px;
+    margin:40px; */
+
+     /* padding: 60px 280px 50px 95px;  */
+     
+    /*if add one values  it will include for all side , if add 2 values topbottom lr*//*top , left and right , bottom */ /*or can add 4 values*/
+    
+    /* padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px; */
+
+    /* margin:40px 25px 75px 56px; */
+    /* margin-top: 100px;
+    margin-bottom: 10px; */
+    /* margin-right: 80px; */
+    /* border-top: 2px dashed green; */
+    /* border-right: 3px dotted lightcoral;
+    border-left: 1px solid yellowgreen; */
+    /* border-bottom: 5px double red; */
+}
+

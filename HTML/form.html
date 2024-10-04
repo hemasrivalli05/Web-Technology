@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">USERNAME:</label>
+        <input type="text" id="name" name="USERNAME" /><br><br>
+
+        <label for="name">password:</label>
+        <input type="password" id="psw" name="123456"><br><br>
+
+        <label for="dob">DOB: </label>
+        <input type="date" name="dob" id="dob"><br><br>
+
+        <label for="address">ADDRESS: </label>
+        <input type="address" id="address" cols="30" rows="10"><br><br>
+
+        <label for="gen">GENDER: </label>
+        <input type="radio" name="Gender" id="gen" value="MALE">MALE
+        <input type="radio" name="Gender" id="gen" value="FEMALE">FEMALE
+        <input type="radio" name="Gender" id="gen" value="OTHERS">OTHERS <br><br>
+
+        <label for="skills">SKILLS </label>
+        <input type="checkbox" name="skills" id="skills" value="HTML">HTML
+        <input type="checkbox" name="skills" id="skills" value="CSS">CSS// name can give different but it shows on url
+        <input type="checkbox" name="skills" id="skills" value="JS">JS
+        <input type="checkbox" name="skills" id="skills" value="QA">QA <br><br>
+
+        <label for="con">Country</label>
+        <select name="country" id="con">
+            <option value="INDIA">INDIA</option>
+            <option value="USA">USA</option>
+            <option value="BANGKOCK">BANGKOCK</option>
+            <option value="JAPAN">JAPAN</option>
+        </select><br><br>
+
+        <label for="state">STATE : </label>
+        <input type="text" name="State" id="state" list="States">
+        <datalist id="States">
+            <option value="KT">KT</option>
+            <option value="UP">UP</option>
+            <option value="AP">AP</option>
+            <option value="MP">MP</option>
+            <option value="GOA">GOA</option>
+            <option value="TD">TD</option>
+        </datalist><br><br>
+
+        <label for="city">CITY : </label>
+        <select name="city" id="city" list="city">
+            <optgroup label="KT">
+                <option value="KT">KT</option>
+                <option value="BG">BG</option>
+                <option value="DG">DG</option>
+                <option value="UDPI">UDPI</option>
+                <option value="MYSORE">MYSORE</option>
+            </optgroup>
+            <optgroup label="AP">
+                <option value="VZWD">VZWD</option>
+                <option value="VIZAG">VIZAG</option>
+                <option value="GUNTUR">GUNTUR</option>
+                <option value="TIRUPATHI">TIRUPATHI</option>
+            </optgroup>
+            <optgroup label="TD">
+                <option value="CHENNAI">CHENNAI</option>
+                <option value="TIRCHY">TIRCHY</option>
+                <option value="CMBTR">CMBTR</option>
+            </optgroup>
+        </select><br><br>
+
+        <button type="submit"> submit </button>
+    </form>
+</body>
+
+</html>

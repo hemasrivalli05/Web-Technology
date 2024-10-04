@@ -1,0 +1,116 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a29e9e;
+    margin: 0;
+}
+
+.instagram-logo {
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+ .square, .inner-square, .iinner-square,.small-circle {
+    border-radius: 40px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.inner-square {
+    width: 140px;
+    height: 140px;
+    margin-top: -170px;
+    margin-left: 30px;
+    background-color: #fff;
+}
+.iinner-square {
+    width: 120px;
+    height: 120px;
+    margin-top: -130px;
+    margin-left: 40px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+ .outer-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -105px;
+    margin-left: 55px;
+    background-color: #fff;
+
+}
+
+.inner-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: -80px;
+    margin-left: 65px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+
+} 
+ .small-circle {
+    width: 10px;
+    height: 10px;
+    margin-top: -80px;
+    margin-left: 135px;
+    background-color: #fff;
+}  */
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outer_blk{
+    height: 450;
+    width:450;
+    background-image: linear-gradient(to right bottom, blue,pink,magenta,orange,yellow);
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#outer_blk .inner_blk{
+    height: 350px;
+    width:350px;
+    border-radius: 90px;
+    border: 20px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+#outer_blk .inner_blk .big{
+    height: 250;
+    width:250;
+    border-radius: 50%;
+    border: 20px solid white;
+}
+#outer_blk .inner_blk .small{
+    height: 10px;
+    width:10px;
+    border-radius: 50%;
+    border: 15px solid white;
+    position: absolute;
+    top: 20px;
+    left:250px;
+}

@@ -1,0 +1,116 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="2" cellspacing="1px" cellpadding="15px" height="400px" width="100%" style="text-align: center;">
+        <thead>
+            <tr>
+                <th>SN NO</th>
+                <th>NAME</th>
+                <th>LOCATION</th>
+                <th>SALARY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Radha</td>
+                <td>BNGL</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Radh2a</td>
+                <td>BNG3L</td>
+                <td rowspan ="2">20</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Radha</td>
+                <td>BNGL</td>
+                <!-- <td>10</td> -->
+</tr>
+<tr>
+    <td>2</td>
+    <td>Radh2a</td>
+    <td>BNG3L</td>
+    <td>20</td>
+</tr>
+<tfoot>
+    <tr>
+        <td colspan="3">Total</td>
+        <!-- <td>Radh2a</td>
+                <td>BNG3L</td> -->
+        <td>total</td>
+    </tr>
+</tfoot>
+</tbody>
+</table>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="1px" cellpadding="20px" height="50%" width="50%" style="text-align: center;">
+        <!--rowspan to merge rows and colspan for column merging-->
+        <!--space between cell and content is cellpadding and cell spacing is space around cell and 100% width will cover entire webpage-->
+        <thead>
+            <tr>
+                <th>level1</th>
+                <th>level2</th>
+                <th>level3</th>
+                <th>info</th>
+                <th>name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">system</td>
+                <td rowspan="4">system apps</td>
+                <td rowspan="3">systemEnv</td>
+                <td>app Test</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>app memory</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>app Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td>SystemEnv2</td>
+                <td>app Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td rowspan="2">system Memory</td>
+                <td rowspan="2">Memory test</td>
+                <td>memory func</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>apes test</td>
+                <td>foo</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 250px;
+            width: 250px;
+            border: 1px solid red;
+            overflow: hidden;
+            display: inline-block;
+        }
+        section img{
+            height: inherit;
+            width: inherit;
+            /* overflow: hidden; //  not work*/
+            transition: transform 2s linear 0.5s;
+            /* display: inline-block; mot work*/
+
+        }
+        section img:hover{
+            transform: scale(1.7);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyobstKQIwWKUzXanzHGYe2RnaZf6E9tpwcA&s" alt="">
+    </section>
+    <section>
+        <img src="https://www.holidaymonk.com/wp-content/uploads/2023/05/Experience-Western-Ghats-Rainy-Season-Maharastra-1024x640.webp" alt="">
+    </section>
+    <section>
+        <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/images/weather/learn-about/weather/monsoon-rainy-season.jpg" alt="">
+    </section>
+    <section>
+        <img src="https://www.hindustantimes.com/ht-img/img/2023/06/25/1600x900/cute-kid-plaiyng-rainy-day_1687682692008_1687682701793.jpg" alt="">
+    </section>
+
+</body>
+</html>
